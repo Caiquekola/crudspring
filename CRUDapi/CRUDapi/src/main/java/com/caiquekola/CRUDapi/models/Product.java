@@ -3,7 +3,6 @@ package com.caiquekola.CRUDapi.models;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.antlr.v4.runtime.misc.NotNull;
 
 import java.time.LocalDate;
 
@@ -13,8 +12,6 @@ import java.time.LocalDate;
 public class Product {
 
     public static final String TABLE_NAME = "product";
-    public interface CreateProduct{};
-    public interface UpdateProduct{};
 
 
     @Id
