@@ -1,4 +1,4 @@
-INSERT INTO product (product_name, description, brand, price, acqDate) VALUES
+INSERT IGNORE INTO crudproductapi.product (product_name, description, brand, price, acq_date) VALUES
                                                                            ('Smartphone XYZ', 'Um smartphone com ótima câmera e bateria de longa duração', 'TechBrand', 1999.99, '2023-01-15'),
                                                                            ('Notebook ABC', 'Notebook leve e potente para trabalho e estudo', 'ComputerCo', 3499.99, '2022-11-01'),
                                                                            ('Fone de Ouvido SuperBass', 'Fone com cancelamento de ruído e som de alta qualidade', 'SoundMakers', 299.99, '2023-06-10'),
